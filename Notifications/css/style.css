@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(10, 126, 87);
+}
+
+.contenedor
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    padding: 4rem;
+}
+
+h1{
+    font-size: 2rem;
+    border:solid blue;
+
+    background-color: rgb(155, 186, 214);
+    padding: 12rem;
+
+    border-radius:50% ;
+    
+    
+    
+}
+
+h1:hover{
+    color: yellow;
+    cursor: crosshair;
+    background-color: aqua;
+    offset: 40px;
+}
